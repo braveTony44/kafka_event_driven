@@ -1,0 +1,23 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "dev": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "kafkajs": "^2.2.4",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
